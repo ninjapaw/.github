@@ -1,0 +1,66 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "organization": {
+    "name": "Ninja Paws",
+    "githubOwner": "ninjapaw",
+    "status": "independent-community-demo",
+    "description": "Independent community and demo projects for Microsoft security, management, productivity, compliance, cloud, and AI learning."
+  },
+  "legal": {
+    "defaultLicense": {
+      "spdxId": "MIT",
+      "copyrightHolder": "Ninja Paws contributors",
+      "copyrightYear": "2026",
+      "appliesByDefault": false,
+      "note": "GitHub does not apply LICENSE files from an organization .github repository. Each repository must include its own LICENSE file."
+    },
+    "disclaimer": {
+      "version": "2026-08-22",
+      "canonicalPath": "DISCLAIMER.md",
+      "appliesByDefault": false,
+      "note": "GitHub does not apply DISCLAIMER.md as a default community health file. Copy or intentionally adapt the canonical disclaimer into each public repository."
+    },
+    "microsoftStatus": {
+      "isMicrosoftProduct": false,
+      "isOfficialMicrosoftGuidance": false,
+      "microsoftEmployeeContributionsMayOccur": true,
+      "employeeContributionCapacity": "individual-or-community-unless-explicitly-stated"
+    },
+    "githubStatus": {
+      "isGitHubProduct": false,
+      "isOfficialGitHubGuidance": false
+    }
+  },
+  "communityHealthDefaults": {
+    "githubDefaultFiles": [
+      "CODE_OF_CONDUCT.md",
+      "CONTRIBUTING.md",
+      "GOVERNANCE.md",
+      "SECURITY.md",
+      "SUPPORT.md",
+      ".github/ISSUE_TEMPLATE/config.yml",
+      ".github/ISSUE_TEMPLATE/bug_report.yml",
+      ".github/ISSUE_TEMPLATE/documentation.yml",
+      ".github/ISSUE_TEMPLATE/feature_request.yml",
+      ".github/PULL_REQUEST_TEMPLATE/pull_request_template.md"
+    ],
+    "notAppliedByGitHubAsDefaults": [
+      "LICENSE",
+      "DISCLAIMER.md",
+      "CODEOWNERS",
+      "dependabot.yml"
+    ]
+  },
+  "support": {
+    "microsoftSupport": false,
+    "githubSupport": false,
+    "defaultPublicIssues": true,
+    "privateSecurityReports": true,
+    "securityContact": "Use the affected repository's Security tab or SECURITY.md process."
+  },
+  "sourceOfTruth": {
+    "microsoftProductTerms": "https://www.microsoft.com/licensing/terms",
+    "microsoftLearn": "https://learn.microsoft.com/",
+    "githubDocs": "https://docs.github.com/"
+  }
+}

@@ -1,0 +1,49 @@
+name: Bug report
+description: Report a reproducible problem in a Ninja Paws repository.
+title: "[Bug]: "
+labels: []
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for reporting a problem. Do not include secrets, tokens, tenant data, customer data, or sensitive logs.
+  - type: textarea
+    id: summary
+    attributes:
+      label: Summary
+      description: What happened, and what did you expect instead?
+    validations:
+      required: true
+  - type: input
+    id: repository
+    attributes:
+      label: Repository
+      description: Which Ninja Paws repository and branch are affected?
+      placeholder: ninjapaw/example-repo on main
+    validations:
+      required: true
+  - type: textarea
+    id: reproduce
+    attributes:
+      label: Reproduction steps
+      description: Provide the smallest safe reproduction you can.
+      placeholder: |
+        1. Run ...
+        2. Open ...
+        3. See ...
+    validations:
+      required: true
+  - type: textarea
+    id: validation
+    attributes:
+      label: Validation already tried
+      description: Commands, browser checks, logs, or screenshots. Redact sensitive values.
+  - type: checkboxes
+    id: safety
+    attributes:
+      label: Safety check
+      options:
+        - label: I have not included secrets, credentials, tokens, tenant data, customer data, or sensitive logs.
+          required: true
+        - label: This is not a security vulnerability report.
+          required: true

@@ -1,0 +1,31 @@
+name: Documentation issue
+description: Report unclear, outdated, or missing documentation.
+title: "[Docs]: "
+labels: []
+body:
+  - type: textarea
+    id: page
+    attributes:
+      label: Page or section
+      description: Link to the file, page, section, or heading.
+    validations:
+      required: true
+  - type: textarea
+    id: issue
+    attributes:
+      label: What should change?
+      description: Explain what is unclear, missing, or outdated.
+    validations:
+      required: true
+  - type: textarea
+    id: source
+    attributes:
+      label: Source or evidence
+      description: Link official Microsoft, GitHub, or project documentation if relevant.
+  - type: checkboxes
+    id: safety
+    attributes:
+      label: Safety check
+      options:
+        - label: I have not included secrets, credentials, tokens, tenant data, customer data, or sensitive logs.
+          required: true

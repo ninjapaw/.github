@@ -1,0 +1,7 @@
+{
+  "name": "Node validation",
+  "description": "Install dependencies, run npm test, and build when a build script exists.",
+  "iconName": "octicon package",
+  "categories": ["JavaScript", "TypeScript", "Node"],
+  "filePatterns": ["package.json$"]
+}

@@ -1,0 +1,8 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Security vulnerability
+    url: https://docs.github.com/en/code-security/security-advisories/guidance-on-reporting-and-writing-information-about-vulnerabilities/privately-reporting-a-security-vulnerability
+    about: Do not open a public issue for vulnerabilities. Use private vulnerability reporting on the affected repository when available.
+  - name: Microsoft product support
+    url: https://support.microsoft.com/
+    about: Use official Microsoft support channels for Microsoft product, tenant, licensing, or production support.
