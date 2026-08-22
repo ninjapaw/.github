@@ -1,5 +1,7 @@
 # Ninja Paws
 
+![Ninja Paws mark](./ninjapaws-mark.svg)
+
 Ninja Paws is an independent community and demo organization for practical
 examples around Microsoft security, management, productivity, compliance, cloud,
 and AI technologies.
