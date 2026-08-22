@@ -1,5 +1,7 @@
 # Ninja Paws Organization Defaults
 
+![Ninja Paws mark](profile/ninjapaws-mark.svg)
+
 This repository contains organization-wide defaults for Ninja Paws public
 repositories.
 
