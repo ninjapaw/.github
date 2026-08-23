@@ -2,7 +2,13 @@
   "name": "Ninja Paws Enterprise - Standard Branch Protection",
   "target": "branch",
   "enforcement": "active",
-  "bypass_actors": [],
+  "bypass_actors": [
+    {
+      "actor_id": 19117026,
+      "actor_type": "BusinessTeam",
+      "bypass_mode": "always"
+    }
+  ],
   "conditions": {
     "organization_name": {
       "include": ["~ALL"],

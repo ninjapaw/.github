@@ -2,7 +2,13 @@
   "name": "Ninja Paws Organization - Standard Branch Protection",
   "target": "branch",
   "enforcement": "active",
-  "bypass_actors": [],
+  "bypass_actors": [
+    {
+      "actor_id": 19117026,
+      "actor_type": "BusinessTeam",
+      "bypass_mode": "always"
+    }
+  ],
   "conditions": {
     "repository_name": {
       "include": ["~ALL"],
