@@ -9,7 +9,7 @@
   "legal": {
     "defaultLicense": {
       "spdxId": "MIT",
-      "copyrightHolder": "Ninja Paws contributors",
+      "copyrightHolder": "Microsoft Corporation",
       "copyrightYear": "2026",
       "appliesByDefault": false,
       "note": "GitHub does not apply LICENSE files from an organization .github repository. Each repository must include its own LICENSE file."
