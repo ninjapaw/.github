@@ -1,15 +1,24 @@
 {
-  "name": "Ninja Paws Organization - Standard Branch Protection",
+  "name": "Ninja Paws Enterprise - Standard Branch Protection (Copilot Bypass Example)",
   "target": "branch",
   "enforcement": "active",
   "bypass_actors": [
     {
       "actor_id": 19117026,
-      "actor_type": "Team",
+      "actor_type": "BusinessTeam",
+      "bypass_mode": "always"
+    },
+    {
+      "actor_id": 0,
+      "actor_type": "Integration",
       "bypass_mode": "always"
     }
   ],
   "conditions": {
+    "organization_name": {
+      "include": ["~ALL"],
+      "exclude": []
+    },
     "repository_name": {
       "include": ["~ALL"],
       "exclude": []
