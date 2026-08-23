@@ -1,0 +1,17 @@
+{
+  "name": "Organization - Restrict to Internal and Private Repositories Only (example)",
+  "target": "repository",
+  "enforcement": "active",
+  "bypass_actors": [],
+  "conditions": {},
+  "rules": [
+    {
+      "type": "repository_visibility",
+      "parameters": {
+        "public": false,
+        "internal": true,
+        "private": true
+      }
+    }
+  ]
+}
